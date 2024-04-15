@@ -1,0 +1,6 @@
+[
+  {
+    "keys": ["super+shift+option+t"],
+    "command": "new_token"
+  }
+]

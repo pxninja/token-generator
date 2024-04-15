@@ -1,0 +1,6 @@
+[
+  {
+    "keys": ["ctrl+shift+option+t"],
+    "command": "new_token"
+  }
+]

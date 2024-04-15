@@ -1,0 +1,24 @@
+[{
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [{
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [{
+            "caption": "Token Generator",
+            "children": [
+                {
+                    "caption": "Settings",
+                    "command": "edit_settings",
+                    "args":
+                    {
+                      "base_file": "${packages}/token-generator/token-generator.sublime-settings",
+                      "default": "{\n\t$0\n}\n",
+                    }
+                }
+            ]
+        }]
+    }]
+}]
