@@ -1,5 +1,6 @@
 {
   "string_length": 5,
   "character_set": "abcdef0123456789",
-  "force_alpha_numeric_inclusion": true
+  "force_alpha_numeric_inclusion": true,
+  "show_in_context_menu": true
 }
