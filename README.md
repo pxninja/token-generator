@@ -34,11 +34,12 @@ Once Installed, you will be able to create new / random / five character / alpha
 
 ## Settings
 
-There are 3 settings:
+There are 4 settings:
 
 1. String Length, `5` by default
 2. Character Set, `abcdef0123456789` by default (aka. hexadecimal / base-16)
-3. Force alpha numeric inclusion, `True` by default (aka. ensures string has at least 1 letter and 1 number)
+3. Force alpha numeric inclusion, `true` by default (aka. ensures string has at least 1 letter and 1 number)
+4. Show in context menu, `true` by default (aka. it will be available in the context menu)
 
 There are 940,800 unique tokens with these settings (16<sup>5</sup> - 10<sup>5</sup> - 6<sup>5</sup>). This is more than sufficient for the intended purpose. Don't go generating passwords with these settings.
 
