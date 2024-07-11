@@ -28,9 +28,15 @@ If you have [Package Control](https://packagecontrol.io/) installed:
 ## Usage
 
 Once Installed, you will be able to create new / random / five character / alpha-numeric tokens in 1 of 3 ways:
-1. Hotkey: <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> (Linux / Windows).
+1. Keyboard Shortcut: <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> (Linux / Windows).
 2. Context Menu: right click within Sublime Text and select `New Token`.
 3. Command Palette: open the Command Palette, type `new token`, and select `Token Generator: New Token`
+
+By default, the Keyboard Shortcut option is *disabled*. To enable the Keyboard Shortcut, open the Command Palette, type `key binding` and select `Token Generator: Key Binding`.
+
+By default, the Context Menu option is *enabled*. To disable the context menu option, open the Command Palette, type `settings` and select `Token Generator: Settings`.
+
+The Command Palette option is always available.
 
 ## Settings
 

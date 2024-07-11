@@ -1,24 +1,33 @@
 [{
-    "caption": "Preferences",
-    "mnemonic": "n",
-    "id": "preferences",
+  "caption": "Preferences",
+  "mnemonic": "n",
+  "id": "preferences",
+  "children": [{
+    "caption": "Package Settings",
+    "mnemonic": "P",
+    "id": "package-settings",
     "children": [{
-        "caption": "Package Settings",
-        "mnemonic": "P",
-        "id": "package-settings",
-        "children": [{
-            "caption": "Token Generator",
-            "children": [
-                {
-                    "caption": "Settings",
-                    "command": "edit_settings",
-                    "args":
-                    {
-                      "base_file": "${packages}/token-generator/token-generator.sublime-settings",
-                      "default": "{\n\t$0\n}\n",
-                    }
-                }
-            ]
-        }]
+      "caption": "Token Generator",
+      "children": [
+        {
+          "caption": "Settings",
+          "command": "edit_settings",
+          "args":
+          {
+            "base_file": "${packages}/Token Generator/Token Generator.sublime-settings",
+            "default": "{\n\t$0\n}\n",
+          }
+        },
+        {
+          "caption": "Key Binding",
+          "command": "edit_settings",
+          "args":
+          {
+            "base_file": "${packages}/Token Generator/Default.sublime-keymap",
+            "default": "[\n\t$0\n]\n",
+          }
+        }
+      ]
     }]
+  }]
 }]

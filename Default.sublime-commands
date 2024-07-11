@@ -8,8 +8,18 @@
     "command": "edit_settings",
     "args":
       {
-        "base_file": "${packages}/token-generator/token-generator.sublime-settings",
+        "base_file": "${packages}/Token Generator/Token Generator.sublime-settings",
         "default": "{\n\t$0\n}\n",
+      }
+  },
+  {
+    "caption": "Token Generator: Key Binding",
+    "command": "edit_settings",
+    "args":
+      {
+        "base_file": "${packages}/Token Generator/Default.sublime-keymap",
+        "user_file": "${packages}/User/Default ($platform).sublime-keymap",
+        "default": "[\n\t$0\n]\n",
       }
   }
 ]
