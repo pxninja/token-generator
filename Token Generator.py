@@ -18,12 +18,12 @@ class NewTokenCommand(sublime_plugin.TextCommand):
 
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
-    self.settings = sublime.load_settings('token-generator.sublime-settings')
+    self.settings = sublime.load_settings('Token Generator.sublime-settings')
 
   def is_visible(self):
     return self.settings.get('show_in_context_menu', default = True)
 
-  def run(self, edit): 
+  def run(self, edit):
     string_length = self.settings.get('string_length', default = 5)
     character_set = self.settings.get('character_set', default = 'abcdef0123456789')
     homogeny_okay = not self.settings.get('force_alpha_numeric_inclusion', default = True)
