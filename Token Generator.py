@@ -14,7 +14,7 @@ import sublime
 import sublime_plugin
 import random
 
-class NewTokenCommand(sublime_plugin.TextCommand):
+class TokenGeneratorNewTokenCommand(sublime_plugin.TextCommand):
 
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)

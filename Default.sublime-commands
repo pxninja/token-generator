@@ -1,7 +1,7 @@
 [
   {
     "caption": "Token Generator: New Token",
-    "command": "new_token"
+    "command": "token_generator_new_token"
   },
   {
     "caption": "Token Generator: Settings",
