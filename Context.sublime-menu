@@ -1,6 +1,7 @@
 [
   {
     "caption": "New Token",
-    "command": "token_generator_new_token"
+    "command": "token_generator_new_token",
+    "args": { "context": "view" }
   }
 ]

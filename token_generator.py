@@ -20,8 +20,10 @@ class TokenGeneratorNewTokenCommand(sublime_plugin.TextCommand):
     super().__init__(*args, **kwargs)
     self.settings = sublime.load_settings('Token Generator.sublime-settings')
 
-  def is_visible(self):
-    return self.settings.get('show_in_context_menu', default = True)
+  def is_visible(self, context = '', **kwargs):
+    if context == 'view' and not self.settings.get('show_in_context_menu', default = True):
+      return False
+    return True
 
   def run(self, edit):
     string_length = self.settings.get('string_length', default = 5)
