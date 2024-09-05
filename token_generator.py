@@ -1,7 +1,7 @@
 """
 
 Token Generator
-v1.0.0
+v1.0.3
 https://github.com/pxninja/token-generator
 
 Copyright (c) 2024, Samuel Davidson
@@ -25,7 +25,7 @@ class TokenGeneratorNewTokenCommand(sublime_plugin.TextCommand):
       return False
     return True
 
-  def run(self, edit):
+  def run(self, edit, **kwargs):
     string_length = self.settings.get('string_length', default = 5)
     character_set = self.settings.get('character_set', default = 'abcdef0123456789')
     homogeny_okay = not self.settings.get('force_alpha_numeric_inclusion', default = True)
